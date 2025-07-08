@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+  @apply min-h-screen;
+}
+
+.container {
+  @apply max-w-md;
+  @apply mx-auto;
+  @apply p-4;
+}
